@@ -19,6 +19,9 @@ async function getHttpsOptions() {
 module.exports = async (env, options) => {
   const dev = options.mode === "development";
   const config = {
+    optimization: {
+      runtimeChunk: 'single'
+    },
     devtool: "source-map",
     entry: {
       polyfill: ["core-js/stable", "regenerator-runtime/runtime"],

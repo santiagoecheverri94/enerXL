@@ -17,7 +17,6 @@ Office.onReady(() => {
 export async function run() {
   try {
     await Excel.run(async (context) => {
-      console.log('test console');
       fillOutputColumnToTheRightOfInputRange(context);
     });
   } catch (error) {

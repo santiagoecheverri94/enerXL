@@ -1,3 +1,7 @@
+# enerXL
+
+enerXL is an Excel Add-in using the Excel Javascript API. Microsoft's Yeoman Generator for Office Add-ins was used to scaffold this project, including this README file.
+
 # Build Excel Custom Functions add-ins using Office Add-ins Development Kit
 
 Excel add-ins are integrations built by third parties into Excel by using [Excel JavaScript API](https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview) and [Office Platform capabilities](https://learn.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins).
